@@ -1,0 +1,58 @@
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;    /*ACOMODAR DE FORMA HORIZONTAL AL CENTRO*/
+    /*background-color: gray;*/
+    height: 100vh;
+    margin: 0px;
+
+}
+
+.container {
+
+    height: 500px;
+    width: 400px;
+    background-color: rgb(28, 172, 234);
+    border-radius: 15px;
+
+}
+
+#pantalla {
+
+    padding: 60px 40px 40px 40px;
+    border-radius: 15px 15px 0px 0px;
+
+}
+
+input {
+
+    height: 36px;
+    width: 294px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 25px;
+
+}
+
+#contentBoton {
+
+    padding: 5px 40px;
+
+}
+
+button {
+
+    height: 60px;
+    width: 75px;
+    font-size: 25px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+
+    background-color: rgb(179, 179, 179);
+
+}
