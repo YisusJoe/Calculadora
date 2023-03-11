@@ -6,50 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calculadora</title>
     <link rel="stylesheet" href="style.css">
+    <script src="calculadora.js"></script>
 </head>
 <body>
 
     <div class="container">
         
-        <div id="pantalla">
+        <div id="pantalla">0</div>
 
-            <input type="text">
+        <div id="contentBoton">
+            
+            <button id = "7" value="7" onclick="teclado(this)">7</button>
+            <button id = "8" value="8" onclick="teclado(this)">8</button>
+            <button id = "9" value="9" onclick="teclado(this)">9</button>
+            <button value="*" onclick="teclado(this)">x</button>
 
         </div>
 
         <div id="contentBoton">
             
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>X</button>
+            <button id = "4" value="4" onclick="teclado(this)">4</button>
+            <button id = "5" value="5" onclick="teclado(this)">5</button>
+            <button id = "6" value="6" onclick="teclado(this)">6</button>
+            <button value="-" onclick="teclado(this)">-</button>
 
         </div>
 
         <div id="contentBoton">
             
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>-</button>
+            <button id = "1" value="1" onclick="teclado(this)">1</button>
+            <button id = "2" value="2" onclick="teclado(this)">2</button>
+            <button id = "3" value="3" onclick="teclado(this)">3</button>
+            <button value="+" onclick="teclado(this)">+</button>
 
         </div>
 
         <div id="contentBoton">
             
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>+</button>
-
-        </div>
-
-        <div id="contentBoton">
-            
-            <button>C</button>
-            <button>A</button>
-            <button>.</button>
-            <button>=</button>
+            <button onclick="clearDisplay()">C</button>
+            <button><</button>
+            <button value="." onclick="teclado(this)">.</button>
+            <button value = "=" onclick="teclado(this)">=</button>
 
         </div>
         

@@ -20,12 +20,16 @@ body {
 
 #pantalla {
 
-    padding: 60px 40px 40px 40px;
-    border-radius: 15px 15px 0px 0px;
+    font-size: 40px;
+    margin: 40px;
+    padding: 10px 20px;
+    text-align: end;
+    background-color: white;
+    border-radius: 15px;
 
 }
 
-input {
+/*input {
 
     height: 36px;
     width: 294px;
@@ -33,7 +37,7 @@ input {
     border-radius: 15px;
     font-size: 25px;
 
-}
+}*/
 
 #contentBoton {
 
